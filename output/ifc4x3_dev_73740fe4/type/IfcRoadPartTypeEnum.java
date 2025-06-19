@@ -1,0 +1,32 @@
+package com.topoplanet.ifc4x3_dev_73740fe4.type;
+import com.topoplanet.test.entity.*;
+
+
+public enum IfcRoadPartTypeEnum {
+    BICYCLECROSSING,
+    BUS_STOP,
+    CARRIAGEWAY,
+    CENTRALISLAND,
+    CENTRALRESERVE,
+    HARDSHOULDER,
+    INTERSECTION,
+    LAYBY,
+    PARKINGBAY,
+    PASSINGBAY,
+    PEDESTRIAN_CROSSING,
+    RAILWAYCROSSING,
+    REFUGEISLAND,
+    ROADSEGMENT,
+    ROADSIDE,
+    ROADSIDEPART,
+    ROADWAYPLATEAU,
+    ROUNDABOUT,
+    SHOULDER,
+    SIDEWALK,
+    SOFTSHOULDER,
+    TOLLPLAZA,
+    TRAFFICISLAND,
+    TRAFFICLANE,
+    USERDEFINED,
+    NOTDEFINED
+}

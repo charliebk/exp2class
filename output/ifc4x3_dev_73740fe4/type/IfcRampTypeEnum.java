@@ -1,0 +1,14 @@
+package com.topoplanet.ifc4x3_dev_73740fe4.type;
+import com.topoplanet.test.entity.*;
+
+
+public enum IfcRampTypeEnum {
+    HALF_TURN_RAMP,
+    QUARTER_TURN_RAMP,
+    SPIRAL_RAMP,
+    STRAIGHT_RUN_RAMP,
+    TWO_QUARTER_TURN_RAMP,
+    TWO_STRAIGHT_RUN_RAMP,
+    USERDEFINED,
+    NOTDEFINED
+}

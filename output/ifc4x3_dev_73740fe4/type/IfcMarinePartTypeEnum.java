@@ -1,0 +1,32 @@
+package com.topoplanet.ifc4x3_dev_73740fe4.type;
+import com.topoplanet.test.entity.*;
+
+
+public enum IfcMarinePartTypeEnum {
+    ABOVEWATERLINE,
+    ANCHORAGE,
+    APPROACHCHANNEL,
+    BELOWWATERLINE,
+    BERTHINGSTRUCTURE,
+    CHAMBER,
+    CILL_LEVEL,
+    COPELEVEL,
+    CORE,
+    CREST,
+    GATEHEAD,
+    GUDINGSTRUCTURE,
+    HIGHWATERLINE,
+    LANDFIELD,
+    LEEWARDSIDE,
+    LOWWATERLINE,
+    MANUFACTURING,
+    NAVIGATIONALAREA,
+    PROTECTION,
+    SHIPTRANSFER,
+    STORAGEAREA,
+    VEHICLESERVICING,
+    WATERFIELD,
+    WEATHERSIDE,
+    USERDEFINED,
+    NOTDEFINED
+}

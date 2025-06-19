@@ -1,0 +1,18 @@
+package com.topoplanet.ifc4x3_dev_73740fe4.type;
+import com.topoplanet.test.entity.*;
+
+
+public enum IfcProtectiveDeviceTypeEnum {
+    ANTI_ARCING_DEVICE,
+    CIRCUITBREAKER,
+    EARTHINGSWITCH,
+    EARTHLEAKAGECIRCUITBREAKER,
+    FUSEDISCONNECTOR,
+    RESIDUALCURRENTCIRCUITBREAKER,
+    RESIDUALCURRENTSWITCH,
+    SPARKGAP,
+    VARISTOR,
+    VOLTAGELIMITER,
+    USERDEFINED,
+    NOTDEFINED
+}
