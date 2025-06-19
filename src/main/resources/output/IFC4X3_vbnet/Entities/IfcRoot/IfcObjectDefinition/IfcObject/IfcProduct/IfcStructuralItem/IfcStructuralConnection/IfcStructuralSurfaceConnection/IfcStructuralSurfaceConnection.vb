@@ -1,0 +1,2 @@
+Public Class IfcStructuralSurfaceConnection Inherits IfcStructuralConnection
+End Class

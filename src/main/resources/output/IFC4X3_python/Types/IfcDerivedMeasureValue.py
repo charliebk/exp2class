@@ -1,0 +1,81 @@
+# SELECT TYPE IfcDerivedMeasureValue
+# Options:
+# - IfcAbsorbedDoseMeasure
+# - IfcAccelerationMeasure
+# - IfcAngularVelocityMeasure
+# - IfcAreaDensityMeasure
+# - IfcCompoundPlaneAngleMeasure
+# - IfcCurvatureMeasure
+# - IfcDoseEquivalentMeasure
+# - IfcDynamicViscosityMeasure
+# - IfcElectricCapacitanceMeasure
+# - IfcElectricChargeMeasure
+# - IfcElectricConductanceMeasure
+# - IfcElectricResistanceMeasure
+# - IfcElectricVoltageMeasure
+# - IfcEnergyMeasure
+# - IfcForceMeasure
+# - IfcFrequencyMeasure
+# - IfcHeatFluxDensityMeasure
+# - IfcHeatingValueMeasure
+# - IfcIlluminanceMeasure
+# - IfcInductanceMeasure
+# - IfcIntegerCountRateMeasure
+# - IfcIonConcentrationMeasure
+# - IfcIsothermalMoistureCapacityMeasure
+# - IfcKinematicViscosityMeasure
+# - IfcLinearForceMeasure
+# - IfcLinearMomentMeasure
+# - IfcLinearStiffnessMeasure
+# - IfcLinearVelocityMeasure
+# - IfcLuminousFluxMeasure
+# - IfcLuminousIntensityDistributionMeasure
+# - IfcMagneticFluxDensityMeasure
+# - IfcMagneticFluxMeasure
+# - IfcMassDensityMeasure
+# - IfcMassFlowRateMeasure
+# - IfcMassPerLengthMeasure
+# - IfcModulusOfElasticityMeasure
+# - IfcModulusOfLinearSubgradeReactionMeasure
+# - IfcModulusOfRotationalSubgradeReactionMeasure
+# - IfcModulusOfSubgradeReactionMeasure
+# - IfcMoistureDiffusivityMeasure
+# - IfcMolecularWeightMeasure
+# - IfcMomentOfInertiaMeasure
+# - IfcMonetaryMeasure
+# - IfcPHMeasure
+# - IfcPlanarForceMeasure
+# - IfcPowerMeasure
+# - IfcPressureMeasure
+# - IfcRadioActivityMeasure
+# - IfcRotationalFrequencyMeasure
+# - IfcRotationalMassMeasure
+# - IfcRotationalStiffnessMeasure
+# - IfcSectionModulusMeasure
+# - IfcSectionalAreaIntegralMeasure
+# - IfcShearModulusMeasure
+# - IfcSoundPowerLevelMeasure
+# - IfcSoundPowerMeasure
+# - IfcSoundPressureLevelMeasure
+# - IfcSoundPressureMeasure
+# - IfcSpecificHeatCapacityMeasure
+# - IfcTemperatureGradientMeasure
+# - IfcTemperatureRateOfChangeMeasure
+# - IfcThermalAdmittanceMeasure
+# - IfcThermalConductivityMeasure
+# - IfcThermalExpansionCoefficientMeasure
+# - IfcThermalResistanceMeasure
+# - IfcThermalTransmittanceMeasure
+# - IfcTorqueMeasure
+# - IfcVaporPermeabilityMeasure
+# - IfcVolumetricFlowRateMeasure
+# - IfcWarpingConstantMeasure
+# - IfcWarpingMomentMeasure
+class IfcDerivedMeasureValue:
+    def __init__(self, value):
+        if not isinstance(value, (IfcAbsorbedDoseMeasure, IfcAccelerationMeasure, IfcAngularVelocityMeasure, IfcAreaDensityMeasure, IfcCompoundPlaneAngleMeasure, IfcCurvatureMeasure, IfcDoseEquivalentMeasure, IfcDynamicViscosityMeasure, IfcElectricCapacitanceMeasure, IfcElectricChargeMeasure, IfcElectricConductanceMeasure, IfcElectricResistanceMeasure, IfcElectricVoltageMeasure, IfcEnergyMeasure, IfcForceMeasure, IfcFrequencyMeasure, IfcHeatFluxDensityMeasure, IfcHeatingValueMeasure, IfcIlluminanceMeasure, IfcInductanceMeasure, IfcIntegerCountRateMeasure, IfcIonConcentrationMeasure, IfcIsothermalMoistureCapacityMeasure, IfcKinematicViscosityMeasure, IfcLinearForceMeasure, IfcLinearMomentMeasure, IfcLinearStiffnessMeasure, IfcLinearVelocityMeasure, IfcLuminousFluxMeasure, IfcLuminousIntensityDistributionMeasure, IfcMagneticFluxDensityMeasure, IfcMagneticFluxMeasure, IfcMassDensityMeasure, IfcMassFlowRateMeasure, IfcMassPerLengthMeasure, IfcModulusOfElasticityMeasure, IfcModulusOfLinearSubgradeReactionMeasure, IfcModulusOfRotationalSubgradeReactionMeasure, IfcModulusOfSubgradeReactionMeasure, IfcMoistureDiffusivityMeasure, IfcMolecularWeightMeasure, IfcMomentOfInertiaMeasure, IfcMonetaryMeasure, IfcPHMeasure, IfcPlanarForceMeasure, IfcPowerMeasure, IfcPressureMeasure, IfcRadioActivityMeasure, IfcRotationalFrequencyMeasure, IfcRotationalMassMeasure, IfcRotationalStiffnessMeasure, IfcSectionModulusMeasure, IfcSectionalAreaIntegralMeasure, IfcShearModulusMeasure, IfcSoundPowerLevelMeasure, IfcSoundPowerMeasure, IfcSoundPressureLevelMeasure, IfcSoundPressureMeasure, IfcSpecificHeatCapacityMeasure, IfcTemperatureGradientMeasure, IfcTemperatureRateOfChangeMeasure, IfcThermalAdmittanceMeasure, IfcThermalConductivityMeasure, IfcThermalExpansionCoefficientMeasure, IfcThermalResistanceMeasure, IfcThermalTransmittanceMeasure, IfcTorqueMeasure, IfcVaporPermeabilityMeasure, IfcVolumetricFlowRateMeasure, IfcWarpingConstantMeasure, IfcWarpingMomentMeasure)):
+            raise TypeError("value must be one of: IfcAbsorbedDoseMeasure, IfcAccelerationMeasure, IfcAngularVelocityMeasure, IfcAreaDensityMeasure, IfcCompoundPlaneAngleMeasure, IfcCurvatureMeasure, IfcDoseEquivalentMeasure, IfcDynamicViscosityMeasure, IfcElectricCapacitanceMeasure, IfcElectricChargeMeasure, IfcElectricConductanceMeasure, IfcElectricResistanceMeasure, IfcElectricVoltageMeasure, IfcEnergyMeasure, IfcForceMeasure, IfcFrequencyMeasure, IfcHeatFluxDensityMeasure, IfcHeatingValueMeasure, IfcIlluminanceMeasure, IfcInductanceMeasure, IfcIntegerCountRateMeasure, IfcIonConcentrationMeasure, IfcIsothermalMoistureCapacityMeasure, IfcKinematicViscosityMeasure, IfcLinearForceMeasure, IfcLinearMomentMeasure, IfcLinearStiffnessMeasure, IfcLinearVelocityMeasure, IfcLuminousFluxMeasure, IfcLuminousIntensityDistributionMeasure, IfcMagneticFluxDensityMeasure, IfcMagneticFluxMeasure, IfcMassDensityMeasure, IfcMassFlowRateMeasure, IfcMassPerLengthMeasure, IfcModulusOfElasticityMeasure, IfcModulusOfLinearSubgradeReactionMeasure, IfcModulusOfRotationalSubgradeReactionMeasure, IfcModulusOfSubgradeReactionMeasure, IfcMoistureDiffusivityMeasure, IfcMolecularWeightMeasure, IfcMomentOfInertiaMeasure, IfcMonetaryMeasure, IfcPHMeasure, IfcPlanarForceMeasure, IfcPowerMeasure, IfcPressureMeasure, IfcRadioActivityMeasure, IfcRotationalFrequencyMeasure, IfcRotationalMassMeasure, IfcRotationalStiffnessMeasure, IfcSectionModulusMeasure, IfcSectionalAreaIntegralMeasure, IfcShearModulusMeasure, IfcSoundPowerLevelMeasure, IfcSoundPowerMeasure, IfcSoundPressureLevelMeasure, IfcSoundPressureMeasure, IfcSpecificHeatCapacityMeasure, IfcTemperatureGradientMeasure, IfcTemperatureRateOfChangeMeasure, IfcThermalAdmittanceMeasure, IfcThermalConductivityMeasure, IfcThermalExpansionCoefficientMeasure, IfcThermalResistanceMeasure, IfcThermalTransmittanceMeasure, IfcTorqueMeasure, IfcVaporPermeabilityMeasure, IfcVolumetricFlowRateMeasure, IfcWarpingConstantMeasure, IfcWarpingMomentMeasure")
+        self.value = value
+
+    def get_value_as(self, cls):
+        return cls(self.value) if isinstance(self.value, cls) else None

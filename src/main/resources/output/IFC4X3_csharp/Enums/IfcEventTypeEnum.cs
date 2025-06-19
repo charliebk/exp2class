@@ -1,0 +1,7 @@
+public enum IfcEventTypeEnum {
+    ENDEVENT,
+    INTERMEDIATEEVENT,
+    STARTEVENT,
+    USERDEFINED,
+    NOTDEFINED
+}

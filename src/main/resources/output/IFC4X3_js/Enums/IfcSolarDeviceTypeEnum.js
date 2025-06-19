@@ -1,0 +1,7 @@
+// ENUM TYPE IfcSolarDeviceTypeEnum
+const IfcSolarDeviceTypeEnum = Object.freeze({
+    SOLARCOLLECTOR: "SOLARCOLLECTOR",
+    SOLARPANEL: "SOLARPANEL",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

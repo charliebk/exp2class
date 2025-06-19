@@ -1,0 +1,9 @@
+Public Enum IfcMooringDeviceTypeEnum
+    BOLLARD
+    LINETENSIONER
+    MAGNETICDEVICE
+    MOORINGHOOKS
+    VACUUMDEVICE
+    USERDEFINED
+    NOTDEFINED
+End Enum

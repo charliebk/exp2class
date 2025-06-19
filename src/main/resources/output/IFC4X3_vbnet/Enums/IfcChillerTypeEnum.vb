@@ -1,0 +1,7 @@
+Public Enum IfcChillerTypeEnum
+    AIRCOOLED
+    HEATRECOVERY
+    WATERCOOLED
+    USERDEFINED
+    NOTDEFINED
+End Enum

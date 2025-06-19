@@ -1,0 +1,7 @@
+// ENUM TYPE IfcDuctSegmentTypeEnum
+const IfcDuctSegmentTypeEnum = Object.freeze({
+    FLEXIBLESEGMENT: "FLEXIBLESEGMENT",
+    RIGIDSEGMENT: "RIGIDSEGMENT",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

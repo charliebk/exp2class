@@ -1,0 +1,14 @@
+public enum IfcBridgePartTypeEnum {
+    ABUTMENT,
+    DECK,
+    DECK_SEGMENT,
+    FOUNDATION,
+    PIER,
+    PIER_SEGMENT,
+    PYLON,
+    SUBSTRUCTURE,
+    SUPERSTRUCTURE,
+    SURFACESTRUCTURE,
+    USERDEFINED,
+    NOTDEFINED
+}

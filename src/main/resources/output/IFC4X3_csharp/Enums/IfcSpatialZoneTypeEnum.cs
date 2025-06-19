@@ -1,0 +1,14 @@
+public enum IfcSpatialZoneTypeEnum {
+    CONSTRUCTION,
+    FIRESAFETY,
+    INTERFERENCE,
+    LIGHTING,
+    OCCUPANCY,
+    RESERVATION,
+    SECURITY,
+    THERMAL,
+    TRANSPORT,
+    VENTILATION,
+    USERDEFINED,
+    NOTDEFINED
+}

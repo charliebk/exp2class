@@ -1,0 +1,9 @@
+public class IfcRelSpaceBoundary1stLevel extends IfcRelSpaceBoundary {
+    public IfcRelSpaceBoundary1stLevel ParentBoundary;
+
+    // === EXTENDED BY ===
+    // IfcRelSpaceBoundary2ndLevel
+
+    // === INVERSE CLAUSES ===
+    // InnerBoundaries : SET [0:?] OF IfcRelSpaceBoundary1stLevel FOR ParentBoundary
+}

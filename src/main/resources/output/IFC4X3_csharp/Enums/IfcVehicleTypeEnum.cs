@@ -1,0 +1,11 @@
+public enum IfcVehicleTypeEnum {
+    CARGO,
+    ROLLINGSTOCK,
+    VEHICLE,
+    VEHICLEAIR,
+    VEHICLEMARINE,
+    VEHICLETRACKED,
+    VEHICLEWHEELED,
+    USERDEFINED,
+    NOTDEFINED
+}

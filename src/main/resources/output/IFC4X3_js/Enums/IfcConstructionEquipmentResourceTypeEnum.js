@@ -1,0 +1,13 @@
+// ENUM TYPE IfcConstructionEquipmentResourceTypeEnum
+const IfcConstructionEquipmentResourceTypeEnum = Object.freeze({
+    DEMOLISHING: "DEMOLISHING",
+    EARTHMOVING: "EARTHMOVING",
+    ERECTING: "ERECTING",
+    HEATING: "HEATING",
+    LIGHTING: "LIGHTING",
+    PAVING: "PAVING",
+    PUMPING: "PUMPING",
+    TRANSPORTING: "TRANSPORTING",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

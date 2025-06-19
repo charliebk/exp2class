@@ -1,0 +1,10 @@
+Public Enum IfcFireSuppressionTerminalTypeEnum
+    BREECHINGINLET
+    FIREHYDRANT
+    FIREMONITOR
+    HOSEREEL
+    SPRINKLER
+    SPRINKLERDEFLECTOR
+    USERDEFINED
+    NOTDEFINED
+End Enum

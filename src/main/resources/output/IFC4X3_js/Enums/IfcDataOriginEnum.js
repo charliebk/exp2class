@@ -1,0 +1,8 @@
+// ENUM TYPE IfcDataOriginEnum
+const IfcDataOriginEnum = Object.freeze({
+    MEASURED: "MEASURED",
+    PREDICTED: "PREDICTED",
+    SIMULATED: "SIMULATED",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

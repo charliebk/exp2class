@@ -1,0 +1,10 @@
+Public Enum IfcPileTypeEnum
+    BORED
+    COHESION
+    DRIVEN
+    FRICTION
+    JETGROUTING
+    SUPPORT
+    USERDEFINED
+    NOTDEFINED
+End Enum

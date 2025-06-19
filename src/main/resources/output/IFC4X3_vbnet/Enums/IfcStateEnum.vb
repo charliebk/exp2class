@@ -1,0 +1,7 @@
+Public Enum IfcStateEnum
+    LOCKED
+    READONLY
+    READONLYLOCKED
+    READWRITE
+    READWRITELOCKED
+End Enum

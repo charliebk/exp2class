@@ -1,0 +1,15 @@
+// ENUM TYPE IfcSanitaryTerminalTypeEnum
+const IfcSanitaryTerminalTypeEnum = Object.freeze({
+    BATH: "BATH",
+    BIDET: "BIDET",
+    CISTERN: "CISTERN",
+    SANITARYFOUNTAIN: "SANITARYFOUNTAIN",
+    SHOWER: "SHOWER",
+    SINK: "SINK",
+    TOILETPAN: "TOILETPAN",
+    URINAL: "URINAL",
+    WASHHANDBASIN: "WASHHANDBASIN",
+    WCSEAT: "WCSEAT",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

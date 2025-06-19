@@ -1,0 +1,7 @@
+Public Enum IfcLogicalOperatorEnum
+    LOGICALAND
+    LOGICALNOTAND
+    LOGICALNOTOR
+    LOGICALOR
+    LOGICALXOR
+End Enum

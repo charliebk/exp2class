@@ -1,0 +1,9 @@
+public enum IfcMedicalDeviceTypeEnum {
+    AIRSTATION,
+    FEEDAIRUNIT,
+    OXYGENGENERATOR,
+    OXYGENPLANT,
+    VACUUMSTATION,
+    USERDEFINED,
+    NOTDEFINED
+}

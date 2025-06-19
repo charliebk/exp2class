@@ -1,0 +1,8 @@
+Public Enum IfcElectricDistributionBoardTypeEnum
+    CONSUMERUNIT
+    DISTRIBUTIONBOARD
+    MOTORCONTROLCENTRE
+    SWITCHBOARD
+    USERDEFINED
+    NOTDEFINED
+End Enum

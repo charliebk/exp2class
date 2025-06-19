@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcStructuralSurfaceMemberTypeEnum(Enum):
+    BENDING_ELEMENT = "BENDING_ELEMENT"
+    MEMBRANE_ELEMENT = "MEMBRANE_ELEMENT"
+    SHELL = "SHELL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

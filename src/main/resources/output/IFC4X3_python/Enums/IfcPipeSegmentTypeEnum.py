@@ -1,0 +1,10 @@
+from enum import Enum
+
+class IfcPipeSegmentTypeEnum(Enum):
+    CULVERT = "CULVERT"
+    FLEXIBLESEGMENT = "FLEXIBLESEGMENT"
+    GUTTER = "GUTTER"
+    RIGIDSEGMENT = "RIGIDSEGMENT"
+    SPOOL = "SPOOL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

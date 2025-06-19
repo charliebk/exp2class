@@ -1,0 +1,7 @@
+Public Enum IfcLoadGroupTypeEnum
+    LOAD_CASE
+    LOAD_COMBINATION
+    LOAD_GROUP
+    USERDEFINED
+    NOTDEFINED
+End Enum

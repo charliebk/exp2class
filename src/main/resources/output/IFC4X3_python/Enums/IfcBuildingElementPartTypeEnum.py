@@ -1,0 +1,10 @@
+from enum import Enum
+
+class IfcBuildingElementPartTypeEnum(Enum):
+    APRON = "APRON"
+    ARMOURUNIT = "ARMOURUNIT"
+    INSULATION = "INSULATION"
+    PRECASTPANEL = "PRECASTPANEL"
+    SAFETYCAGE = "SAFETYCAGE"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

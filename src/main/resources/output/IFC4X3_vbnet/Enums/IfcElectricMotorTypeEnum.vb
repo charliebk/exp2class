@@ -1,0 +1,9 @@
+Public Enum IfcElectricMotorTypeEnum
+    DC
+    INDUCTION
+    POLYPHASE
+    RELUCTANCESYNCHRONOUS
+    SYNCHRONOUS
+    USERDEFINED
+    NOTDEFINED
+End Enum

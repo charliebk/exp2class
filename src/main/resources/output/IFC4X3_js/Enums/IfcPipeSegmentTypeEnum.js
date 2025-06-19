@@ -1,0 +1,10 @@
+// ENUM TYPE IfcPipeSegmentTypeEnum
+const IfcPipeSegmentTypeEnum = Object.freeze({
+    CULVERT: "CULVERT",
+    FLEXIBLESEGMENT: "FLEXIBLESEGMENT",
+    GUTTER: "GUTTER",
+    RIGIDSEGMENT: "RIGIDSEGMENT",
+    SPOOL: "SPOOL",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

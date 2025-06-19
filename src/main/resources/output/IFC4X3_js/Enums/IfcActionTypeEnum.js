@@ -1,0 +1,8 @@
+// ENUM TYPE IfcActionTypeEnum
+const IfcActionTypeEnum = Object.freeze({
+    EXTRAORDINARY_A: "EXTRAORDINARY_A",
+    PERMANENT_G: "PERMANENT_G",
+    VARIABLE_Q: "VARIABLE_Q",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

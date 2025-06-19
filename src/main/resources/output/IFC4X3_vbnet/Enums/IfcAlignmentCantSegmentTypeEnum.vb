@@ -1,0 +1,9 @@
+Public Enum IfcAlignmentCantSegmentTypeEnum
+    BLOSSCURVE
+    CONSTANTCANT
+    COSINECURVE
+    HELMERTCURVE
+    LINEARTRANSITION
+    SINECURVE
+    VIENNESEBEND
+End Enum

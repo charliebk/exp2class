@@ -1,0 +1,9 @@
+from enum import Enum
+
+class IfcGridTypeEnum(Enum):
+    IRREGULAR = "IRREGULAR"
+    RADIAL = "RADIAL"
+    RECTANGULAR = "RECTANGULAR"
+    TRIANGULAR = "TRIANGULAR"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

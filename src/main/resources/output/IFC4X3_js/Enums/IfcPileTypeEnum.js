@@ -1,0 +1,11 @@
+// ENUM TYPE IfcPileTypeEnum
+const IfcPileTypeEnum = Object.freeze({
+    BORED: "BORED",
+    COHESION: "COHESION",
+    DRIVEN: "DRIVEN",
+    FRICTION: "FRICTION",
+    JETGROUTING: "JETGROUTING",
+    SUPPORT: "SUPPORT",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

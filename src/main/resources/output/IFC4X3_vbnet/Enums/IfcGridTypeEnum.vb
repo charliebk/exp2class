@@ -1,0 +1,8 @@
+Public Enum IfcGridTypeEnum
+    IRREGULAR
+    RADIAL
+    RECTANGULAR
+    TRIANGULAR
+    USERDEFINED
+    NOTDEFINED
+End Enum

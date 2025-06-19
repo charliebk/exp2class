@@ -1,0 +1,12 @@
+from enum import Enum
+
+class IfcAlignmentHorizontalSegmentTypeEnum(Enum):
+    BLOSSCURVE = "BLOSSCURVE"
+    CIRCULARARC = "CIRCULARARC"
+    CLOTHOID = "CLOTHOID"
+    COSINECURVE = "COSINECURVE"
+    CUBIC = "CUBIC"
+    HELMERTCURVE = "HELMERTCURVE"
+    LINE = "LINE"
+    SINECURVE = "SINECURVE"
+    VIENNESEBEND = "VIENNESEBEND"

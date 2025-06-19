@@ -1,0 +1,12 @@
+// ENUM TYPE IfcOccupantTypeEnum
+const IfcOccupantTypeEnum = Object.freeze({
+    ASSIGNEE: "ASSIGNEE",
+    ASSIGNOR: "ASSIGNOR",
+    LESSEE: "LESSEE",
+    LESSOR: "LESSOR",
+    LETTINGAGENT: "LETTINGAGENT",
+    OWNER: "OWNER",
+    TENANT: "TENANT",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

@@ -1,0 +1,9 @@
+from enum import Enum
+
+class IfcImpactProtectionDeviceTypeEnum(Enum):
+    BUMPER = "BUMPER"
+    CRASHCUSHION = "CRASHCUSHION"
+    DAMPINGSYSTEM = "DAMPINGSYSTEM"
+    FENDER = "FENDER"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

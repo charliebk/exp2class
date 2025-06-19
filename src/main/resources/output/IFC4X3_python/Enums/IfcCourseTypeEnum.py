@@ -1,0 +1,11 @@
+from enum import Enum
+
+class IfcCourseTypeEnum(Enum):
+    ARMOUR = "ARMOUR"
+    BALLASTBED = "BALLASTBED"
+    CORE = "CORE"
+    FILTER = "FILTER"
+    PAVEMENT = "PAVEMENT"
+    PROTECTION = "PROTECTION"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

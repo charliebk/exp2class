@@ -1,0 +1,8 @@
+// ENUM TYPE IfcChillerTypeEnum
+const IfcChillerTypeEnum = Object.freeze({
+    AIRCOOLED: "AIRCOOLED",
+    HEATRECOVERY: "HEATRECOVERY",
+    WATERCOOLED: "WATERCOOLED",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

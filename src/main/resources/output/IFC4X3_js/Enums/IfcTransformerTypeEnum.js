@@ -1,0 +1,12 @@
+// ENUM TYPE IfcTransformerTypeEnum
+const IfcTransformerTypeEnum = Object.freeze({
+    CHOPPER: "CHOPPER",
+    COMBINED: "COMBINED",
+    CURRENT: "CURRENT",
+    FREQUENCY: "FREQUENCY",
+    INVERTER: "INVERTER",
+    RECTIFIER: "RECTIFIER",
+    VOLTAGE: "VOLTAGE",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

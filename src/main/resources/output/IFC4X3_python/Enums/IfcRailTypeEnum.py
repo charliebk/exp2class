@@ -1,0 +1,11 @@
+from enum import Enum
+
+class IfcRailTypeEnum(Enum):
+    BLADE = "BLADE"
+    CHECKRAIL = "CHECKRAIL"
+    GUARDRAIL = "GUARDRAIL"
+    RACKRAIL = "RACKRAIL"
+    RAIL = "RAIL"
+    STOCKRAIL = "STOCKRAIL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

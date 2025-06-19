@@ -1,0 +1,9 @@
+public enum IfcFootingTypeEnum {
+    CAISSON_FOUNDATION,
+    FOOTING_BEAM,
+    PAD_FOOTING,
+    PILE_CAP,
+    STRIP_FOOTING,
+    USERDEFINED,
+    NOTDEFINED
+}

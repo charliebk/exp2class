@@ -1,0 +1,9 @@
+Public Enum IfcControllerTypeEnum
+    FLOATING
+    MULTIPOSITION
+    PROGRAMMABLE
+    PROPORTIONAL
+    TWOPOSITION
+    USERDEFINED
+    NOTDEFINED
+End Enum

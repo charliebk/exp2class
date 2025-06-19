@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcGeographicElementTypeEnum(Enum):
+    SOIL_BORING_POINT = "SOIL_BORING_POINT"
+    TERRAIN = "TERRAIN"
+    VEGETATION = "VEGETATION"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

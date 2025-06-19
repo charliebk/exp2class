@@ -1,0 +1,9 @@
+from enum import Enum
+
+class IfcFacilityUsageEnum(Enum):
+    LATERAL = "LATERAL"
+    LONGITUDINAL = "LONGITUDINAL"
+    REGION = "REGION"
+    VERTICAL = "VERTICAL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

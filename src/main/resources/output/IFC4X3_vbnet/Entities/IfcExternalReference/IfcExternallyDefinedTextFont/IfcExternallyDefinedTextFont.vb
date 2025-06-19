@@ -1,0 +1,2 @@
+Public Class IfcExternallyDefinedTextFont Inherits IfcExternalReference
+End Class

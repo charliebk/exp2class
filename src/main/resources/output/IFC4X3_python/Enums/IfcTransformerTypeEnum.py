@@ -1,0 +1,12 @@
+from enum import Enum
+
+class IfcTransformerTypeEnum(Enum):
+    CHOPPER = "CHOPPER"
+    COMBINED = "COMBINED"
+    CURRENT = "CURRENT"
+    FREQUENCY = "FREQUENCY"
+    INVERTER = "INVERTER"
+    RECTIFIER = "RECTIFIER"
+    VOLTAGE = "VOLTAGE"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcDataOriginEnum(Enum):
+    MEASURED = "MEASURED"
+    PREDICTED = "PREDICTED"
+    SIMULATED = "SIMULATED"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

@@ -1,0 +1,11 @@
+// ENUM TYPE IfcCourseTypeEnum
+const IfcCourseTypeEnum = Object.freeze({
+    ARMOUR: "ARMOUR",
+    BALLASTBED: "BALLASTBED",
+    CORE: "CORE",
+    FILTER: "FILTER",
+    PAVEMENT: "PAVEMENT",
+    PROTECTION: "PROTECTION",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

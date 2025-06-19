@@ -1,0 +1,9 @@
+Public Enum IfcStructuralCurveMemberTypeEnum
+    CABLE
+    COMPRESSION_MEMBER
+    PIN_JOINED_MEMBER
+    RIGID_JOINED_MEMBER
+    TENSION_MEMBER
+    USERDEFINED
+    NOTDEFINED
+End Enum

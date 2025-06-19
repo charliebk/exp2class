@@ -1,0 +1,8 @@
+public class IfcBoundaryEdgeCondition extends IfcBoundaryCondition {
+    public IfcModulusOfTranslationalSubgradeReactionSelect TranslationalStiffnessByLengthX;
+    public IfcModulusOfTranslationalSubgradeReactionSelect TranslationalStiffnessByLengthY;
+    public IfcModulusOfTranslationalSubgradeReactionSelect TranslationalStiffnessByLengthZ;
+    public IfcModulusOfRotationalSubgradeReactionSelect RotationalStiffnessByLengthX;
+    public IfcModulusOfRotationalSubgradeReactionSelect RotationalStiffnessByLengthY;
+    public IfcModulusOfRotationalSubgradeReactionSelect RotationalStiffnessByLengthZ;
+}

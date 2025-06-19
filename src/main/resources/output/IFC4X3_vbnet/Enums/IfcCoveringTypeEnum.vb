@@ -1,0 +1,16 @@
+Public Enum IfcCoveringTypeEnum
+    CEILING
+    CLADDING
+    COPING
+    FLOORING
+    INSULATION
+    MEMBRANE
+    MOLDING
+    ROOFING
+    SKIRTINGBOARD
+    SLEEVING
+    TOPPING
+    WRAPPING
+    USERDEFINED
+    NOTDEFINED
+End Enum

@@ -1,0 +1,9 @@
+from enum import Enum
+
+class IfcFlowMeterTypeEnum(Enum):
+    ENERGYMETER = "ENERGYMETER"
+    GASMETER = "GASMETER"
+    OILMETER = "OILMETER"
+    WATERMETER = "WATERMETER"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

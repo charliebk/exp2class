@@ -1,0 +1,8 @@
+// ENUM TYPE IfcWorkCalendarTypeEnum
+const IfcWorkCalendarTypeEnum = Object.freeze({
+    FIRSTSHIFT: "FIRSTSHIFT",
+    SECONDSHIFT: "SECONDSHIFT",
+    THIRDSHIFT: "THIRDSHIFT",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

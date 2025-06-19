@@ -1,0 +1,9 @@
+from enum import Enum
+
+class IfcRailingTypeEnum(Enum):
+    BALUSTRADE = "BALUSTRADE"
+    FENCE = "FENCE"
+    GUARDRAIL = "GUARDRAIL"
+    HANDRAIL = "HANDRAIL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

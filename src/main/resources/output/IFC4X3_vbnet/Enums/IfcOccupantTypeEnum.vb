@@ -1,0 +1,11 @@
+Public Enum IfcOccupantTypeEnum
+    ASSIGNEE
+    ASSIGNOR
+    LESSEE
+    LESSOR
+    LETTINGAGENT
+    OWNER
+    TENANT
+    USERDEFINED
+    NOTDEFINED
+End Enum

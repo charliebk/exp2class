@@ -1,0 +1,2 @@
+Public Class IfcExternallyDefinedHatchStyle Inherits IfcExternalReference
+End Class

@@ -1,0 +1,11 @@
+// ENUM TYPE IfcRailTypeEnum
+const IfcRailTypeEnum = Object.freeze({
+    BLADE: "BLADE",
+    CHECKRAIL: "CHECKRAIL",
+    GUARDRAIL: "GUARDRAIL",
+    RACKRAIL: "RACKRAIL",
+    RAIL: "RAIL",
+    STOCKRAIL: "STOCKRAIL",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

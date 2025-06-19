@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcWorkCalendarTypeEnum(Enum):
+    FIRSTSHIFT = "FIRSTSHIFT"
+    SECONDSHIFT = "SECONDSHIFT"
+    THIRDSHIFT = "THIRDSHIFT"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

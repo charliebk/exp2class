@@ -1,0 +1,8 @@
+Public Enum IfcConveyorSegmentTypeEnum
+    BELTCONVEYOR
+    BUCKETCONVEYOR
+    CHUTECONVEYOR
+    SCREWCONVEYOR
+    USERDEFINED
+    NOTDEFINED
+End Enum

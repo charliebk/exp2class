@@ -1,0 +1,12 @@
+public enum IfcAlarmTypeEnum {
+    BELL,
+    BREAKGLASSBUTTON,
+    LIGHT,
+    MANUALPULLBOX,
+    RAILWAYCROCODILE,
+    RAILWAYDETONATOR,
+    SIREN,
+    WHISTLE,
+    USERDEFINED,
+    NOTDEFINED
+}

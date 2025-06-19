@@ -1,0 +1,8 @@
+public enum IfcBSplineCurveForm {
+    CIRCULAR_ARC,
+    ELLIPTIC_ARC,
+    HYPERBOLIC_ARC,
+    PARABOLIC_ARC,
+    POLYLINE_FORM,
+    UNSPECIFIED
+}

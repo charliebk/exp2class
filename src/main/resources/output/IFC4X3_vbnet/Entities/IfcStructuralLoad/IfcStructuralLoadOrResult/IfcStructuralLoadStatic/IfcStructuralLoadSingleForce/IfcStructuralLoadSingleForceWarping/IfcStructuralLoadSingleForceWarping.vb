@@ -1,0 +1,3 @@
+Public Class IfcStructuralLoadSingleForceWarping Inherits IfcStructuralLoadSingleForce
+    Public WarpingMoment As IfcWarpingMomentMeasure
+End Class

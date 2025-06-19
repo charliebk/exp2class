@@ -1,0 +1,13 @@
+// ENUM TYPE IfcBearingTypeEnum
+const IfcBearingTypeEnum = Object.freeze({
+    CYLINDRICAL: "CYLINDRICAL",
+    DISK: "DISK",
+    ELASTOMERIC: "ELASTOMERIC",
+    GUIDE: "GUIDE",
+    POT: "POT",
+    ROCKER: "ROCKER",
+    ROLLER: "ROLLER",
+    SPHERICAL: "SPHERICAL",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

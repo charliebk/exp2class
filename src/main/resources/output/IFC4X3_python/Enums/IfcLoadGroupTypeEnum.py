@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcLoadGroupTypeEnum(Enum):
+    LOAD_CASE = "LOAD_CASE"
+    LOAD_COMBINATION = "LOAD_COMBINATION"
+    LOAD_GROUP = "LOAD_GROUP"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

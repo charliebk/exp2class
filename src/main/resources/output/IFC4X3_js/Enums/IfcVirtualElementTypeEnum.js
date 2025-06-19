@@ -1,0 +1,8 @@
+// ENUM TYPE IfcVirtualElementTypeEnum
+const IfcVirtualElementTypeEnum = Object.freeze({
+    BOUNDARY: "BOUNDARY",
+    CLEARANCE: "CLEARANCE",
+    PROVISIONFORVOID: "PROVISIONFORVOID",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

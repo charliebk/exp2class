@@ -1,0 +1,7 @@
+from enum import Enum
+
+class IfcSolarDeviceTypeEnum(Enum):
+    SOLARCOLLECTOR = "SOLARCOLLECTOR"
+    SOLARPANEL = "SOLARPANEL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

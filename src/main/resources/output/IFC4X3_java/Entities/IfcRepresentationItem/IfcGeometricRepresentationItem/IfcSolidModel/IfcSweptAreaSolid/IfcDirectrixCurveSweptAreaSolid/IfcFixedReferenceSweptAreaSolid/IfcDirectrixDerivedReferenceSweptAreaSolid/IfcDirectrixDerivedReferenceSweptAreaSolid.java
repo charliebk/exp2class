@@ -1,0 +1,2 @@
+public class IfcDirectrixDerivedReferenceSweptAreaSolid extends IfcFixedReferenceSweptAreaSolid {
+}

@@ -1,0 +1,7 @@
+Public Enum IfcEventTypeEnum
+    ENDEVENT
+    INTERMEDIATEEVENT
+    STARTEVENT
+    USERDEFINED
+    NOTDEFINED
+End Enum

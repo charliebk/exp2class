@@ -1,0 +1,10 @@
+// ENUM TYPE IfcBuildingElementPartTypeEnum
+const IfcBuildingElementPartTypeEnum = Object.freeze({
+    APRON: "APRON",
+    ARMOURUNIT: "ARMOURUNIT",
+    INSULATION: "INSULATION",
+    PRECASTPANEL: "PRECASTPANEL",
+    SAFETYCAGE: "SAFETYCAGE",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

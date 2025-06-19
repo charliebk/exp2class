@@ -1,0 +1,2 @@
+Public Class IfcLightSourceAmbient Inherits IfcLightSource
+End Class

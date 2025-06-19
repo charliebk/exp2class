@@ -1,0 +1,9 @@
+Public Enum IfcBuildingElementProxyTypeEnum
+    COMPLEX
+    ELEMENT
+    PARTIAL
+    PROVISIONFORSPACE
+    PROVISIONFORVOID
+    USERDEFINED
+    NOTDEFINED
+End Enum

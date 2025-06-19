@@ -1,0 +1,8 @@
+Public Enum IfcEventTriggerTypeEnum
+    EVENTCOMPLEX
+    EVENTMESSAGE
+    EVENTRULE
+    EVENTTIME
+    USERDEFINED
+    NOTDEFINED
+End Enum

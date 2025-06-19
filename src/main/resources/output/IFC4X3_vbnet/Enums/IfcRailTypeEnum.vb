@@ -1,0 +1,10 @@
+Public Enum IfcRailTypeEnum
+    BLADE
+    CHECKRAIL
+    GUARDRAIL
+    RACKRAIL
+    RAIL
+    STOCKRAIL
+    USERDEFINED
+    NOTDEFINED
+End Enum

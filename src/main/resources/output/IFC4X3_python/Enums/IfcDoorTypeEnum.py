@@ -1,0 +1,10 @@
+from enum import Enum
+
+class IfcDoorTypeEnum(Enum):
+    BOOM_BARRIER = "BOOM_BARRIER"
+    DOOR = "DOOR"
+    GATE = "GATE"
+    TRAPDOOR = "TRAPDOOR"
+    TURNSTILE = "TURNSTILE"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

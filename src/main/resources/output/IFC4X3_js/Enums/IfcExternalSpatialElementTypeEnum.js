@@ -1,0 +1,9 @@
+// ENUM TYPE IfcExternalSpatialElementTypeEnum
+const IfcExternalSpatialElementTypeEnum = Object.freeze({
+    EXTERNAL: "EXTERNAL",
+    EXTERNAL_EARTH: "EXTERNAL_EARTH",
+    EXTERNAL_FIRE: "EXTERNAL_FIRE",
+    EXTERNAL_WATER: "EXTERNAL_WATER",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

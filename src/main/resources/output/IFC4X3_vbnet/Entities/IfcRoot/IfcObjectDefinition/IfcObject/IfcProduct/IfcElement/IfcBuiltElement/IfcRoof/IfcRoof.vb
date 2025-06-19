@@ -1,0 +1,7 @@
+Public Class IfcRoof Inherits IfcBuiltElement
+    Public PredefinedType As IfcRoofTypeEnum
+
+    ' === WHERE CLAUSES ===
+    ' CorrectPredefinedType : NOT(EXISTS(PredefinedType)) OR (PredefinedType <> IfcRoofTypeEnum.USERDEFINED) OR ((PredefinedType = IfcRoofTypeEnum.USERDEFINED) AND EXISTS (SELF\IfcObject.ObjectType))
+    ' CorrectTypeAssigned : (SIZEOF(IsTypedBy) = 0) OR ('IFC4X3_DEV_73740fe4.IFCROOFTYPE' IN TYPEOF(SELF\IfcObject.IsTypedBy[1].RelatingType))
+End Class

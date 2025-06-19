@@ -1,0 +1,6 @@
+Public Enum IfcDuctSegmentTypeEnum
+    FLEXIBLESEGMENT
+    RIGIDSEGMENT
+    USERDEFINED
+    NOTDEFINED
+End Enum

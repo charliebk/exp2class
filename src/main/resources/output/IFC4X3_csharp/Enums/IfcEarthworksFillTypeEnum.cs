@@ -1,0 +1,11 @@
+public enum IfcEarthworksFillTypeEnum {
+    BACKFILL,
+    COUNTERWEIGHT,
+    EMBANKMENT,
+    SLOPEFILL,
+    SUBGRADE,
+    SUBGRADEBED,
+    TRANSITIONSECTION,
+    USERDEFINED,
+    NOTDEFINED
+}

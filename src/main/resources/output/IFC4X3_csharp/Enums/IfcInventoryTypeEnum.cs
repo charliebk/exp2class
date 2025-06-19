@@ -1,0 +1,7 @@
+public enum IfcInventoryTypeEnum {
+    ASSETINVENTORY,
+    FURNITUREINVENTORY,
+    SPACEINVENTORY,
+    USERDEFINED,
+    NOTDEFINED
+}

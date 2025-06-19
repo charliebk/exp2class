@@ -1,0 +1,7 @@
+public enum IfcLightFixtureTypeEnum {
+    DIRECTIONSOURCE,
+    POINTSOURCE,
+    SECURITYLIGHTING,
+    USERDEFINED,
+    NOTDEFINED
+}

@@ -1,0 +1,9 @@
+// ENUM TYPE IfcProtectiveDeviceTrippingUnitTypeEnum
+const IfcProtectiveDeviceTrippingUnitTypeEnum = Object.freeze({
+    ELECTROMAGNETIC: "ELECTROMAGNETIC",
+    ELECTRONIC: "ELECTRONIC",
+    RESIDUALCURRENT: "RESIDUALCURRENT",
+    THERMAL: "THERMAL",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

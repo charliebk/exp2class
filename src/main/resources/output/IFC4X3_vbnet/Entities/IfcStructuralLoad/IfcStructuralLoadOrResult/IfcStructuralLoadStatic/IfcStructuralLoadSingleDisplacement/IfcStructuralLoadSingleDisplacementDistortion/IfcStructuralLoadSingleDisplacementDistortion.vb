@@ -1,0 +1,3 @@
+Public Class IfcStructuralLoadSingleDisplacementDistortion Inherits IfcStructuralLoadSingleDisplacement
+    Public Distortion As IfcCurvatureMeasure
+End Class

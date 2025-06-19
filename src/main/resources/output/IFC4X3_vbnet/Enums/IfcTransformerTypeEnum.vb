@@ -1,0 +1,11 @@
+Public Enum IfcTransformerTypeEnum
+    CHOPPER
+    COMBINED
+    CURRENT
+    FREQUENCY
+    INVERTER
+    RECTIFIER
+    VOLTAGE
+    USERDEFINED
+    NOTDEFINED
+End Enum

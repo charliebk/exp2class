@@ -1,0 +1,5 @@
+Public Class IfcBoundaryFaceCondition Inherits IfcBoundaryCondition
+    Public TranslationalStiffnessByAreaX As IfcModulusOfSubgradeReactionSelect
+    Public TranslationalStiffnessByAreaY As IfcModulusOfSubgradeReactionSelect
+    Public TranslationalStiffnessByAreaZ As IfcModulusOfSubgradeReactionSelect
+End Class

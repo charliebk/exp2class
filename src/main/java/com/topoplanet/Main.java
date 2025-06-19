@@ -32,7 +32,7 @@ public class Main {
             if (args.length != 4) {
                 System.out.println("""
                 Uso correcto:
-                    java -jar ExpParser.jar <archivo.exp> <lenguaje> <salida> <nombre_carpeta_root>
+                    java -jar exp2class.jar <archivo.exp> <lenguaje> <salida> <nombre_carpeta_root>
 
                 Parámetros:
                     <archivo.exp>             Ruta al archivo IFC EXPRESS

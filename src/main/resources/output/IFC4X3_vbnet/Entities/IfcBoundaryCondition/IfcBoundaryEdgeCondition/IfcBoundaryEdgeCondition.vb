@@ -1,0 +1,8 @@
+Public Class IfcBoundaryEdgeCondition Inherits IfcBoundaryCondition
+    Public TranslationalStiffnessByLengthX As IfcModulusOfTranslationalSubgradeReactionSelect
+    Public TranslationalStiffnessByLengthY As IfcModulusOfTranslationalSubgradeReactionSelect
+    Public TranslationalStiffnessByLengthZ As IfcModulusOfTranslationalSubgradeReactionSelect
+    Public RotationalStiffnessByLengthX As IfcModulusOfRotationalSubgradeReactionSelect
+    Public RotationalStiffnessByLengthY As IfcModulusOfRotationalSubgradeReactionSelect
+    Public RotationalStiffnessByLengthZ As IfcModulusOfRotationalSubgradeReactionSelect
+End Class

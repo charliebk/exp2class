@@ -1,0 +1,11 @@
+Public Enum IfcDoorPanelOperationEnum
+    DOUBLE_ACTING
+    FIXEDPANEL
+    FOLDING
+    REVOLVING
+    ROLLINGUP
+    SLIDING
+    SWINGING
+    USERDEFINED
+    NOTDEFINED
+End Enum

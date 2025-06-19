@@ -1,0 +1,3 @@
+Public Class IfcRelConnectsWithEccentricity Inherits IfcRelConnectsStructuralMember
+    Public ConnectionConstraint As IfcConnectionGeometry
+End Class

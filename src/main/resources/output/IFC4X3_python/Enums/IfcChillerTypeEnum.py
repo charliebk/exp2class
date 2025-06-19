@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcChillerTypeEnum(Enum):
+    AIRCOOLED = "AIRCOOLED"
+    HEATRECOVERY = "HEATRECOVERY"
+    WATERCOOLED = "WATERCOOLED"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

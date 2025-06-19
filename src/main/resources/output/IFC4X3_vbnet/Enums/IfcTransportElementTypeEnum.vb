@@ -1,0 +1,10 @@
+Public Enum IfcTransportElementTypeEnum
+    CRANEWAY
+    ELEVATOR
+    ESCALATOR
+    HAULINGGEAR
+    LIFTINGGEAR
+    MOVINGWALKWAY
+    USERDEFINED
+    NOTDEFINED
+End Enum

@@ -1,0 +1,6 @@
+Public Enum IfcEngineTypeEnum
+    EXTERNALCOMBUSTION
+    INTERNALCOMBUSTION
+    USERDEFINED
+    NOTDEFINED
+End Enum

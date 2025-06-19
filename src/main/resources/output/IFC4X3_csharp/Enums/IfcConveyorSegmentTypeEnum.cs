@@ -1,0 +1,8 @@
+public enum IfcConveyorSegmentTypeEnum {
+    BELTCONVEYOR,
+    BUCKETCONVEYOR,
+    CHUTECONVEYOR,
+    SCREWCONVEYOR,
+    USERDEFINED,
+    NOTDEFINED
+}

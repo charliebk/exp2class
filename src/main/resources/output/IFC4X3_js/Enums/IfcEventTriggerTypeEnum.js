@@ -1,0 +1,9 @@
+// ENUM TYPE IfcEventTriggerTypeEnum
+const IfcEventTriggerTypeEnum = Object.freeze({
+    EVENTCOMPLEX: "EVENTCOMPLEX",
+    EVENTMESSAGE: "EVENTMESSAGE",
+    EVENTRULE: "EVENTRULE",
+    EVENTTIME: "EVENTTIME",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

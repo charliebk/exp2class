@@ -1,0 +1,2 @@
+Public Class IfcAlignmentHorizontal Inherits IfcLinearElement
+End Class

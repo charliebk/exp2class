@@ -1,0 +1,12 @@
+public enum IfcFacilityPartCommonTypeEnum {
+    ABOVEGROUND,
+    BELOWGROUND,
+    JUNCTION,
+    LEVELCROSSING,
+    SEGMENT,
+    SUBSTRUCTURE,
+    SUPERSTRUCTURE,
+    TERMINAL,
+    USERDEFINED,
+    NOTDEFINED
+}

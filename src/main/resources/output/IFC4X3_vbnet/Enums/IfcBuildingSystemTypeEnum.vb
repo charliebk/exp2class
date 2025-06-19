@@ -1,0 +1,10 @@
+Public Enum IfcBuildingSystemTypeEnum
+    FENESTRATION
+    FOUNDATION
+    LOADBEARING
+    OUTERSHELL
+    SHADING
+    TRANSPORT
+    USERDEFINED
+    NOTDEFINED
+End Enum

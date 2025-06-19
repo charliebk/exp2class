@@ -1,0 +1,13 @@
+from enum import Enum
+
+class IfcBearingTypeEnum(Enum):
+    CYLINDRICAL = "CYLINDRICAL"
+    DISK = "DISK"
+    ELASTOMERIC = "ELASTOMERIC"
+    GUIDE = "GUIDE"
+    POT = "POT"
+    ROCKER = "ROCKER"
+    ROLLER = "ROLLER"
+    SPHERICAL = "SPHERICAL"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

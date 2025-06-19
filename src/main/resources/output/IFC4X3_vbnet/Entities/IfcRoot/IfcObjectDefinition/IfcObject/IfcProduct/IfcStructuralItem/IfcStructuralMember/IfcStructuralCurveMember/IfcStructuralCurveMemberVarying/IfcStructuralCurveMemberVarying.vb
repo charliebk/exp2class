@@ -1,0 +1,2 @@
+Public Class IfcStructuralCurveMemberVarying Inherits IfcStructuralCurveMember
+End Class

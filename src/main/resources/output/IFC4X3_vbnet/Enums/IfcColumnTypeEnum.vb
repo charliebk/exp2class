@@ -1,0 +1,9 @@
+Public Enum IfcColumnTypeEnum
+    COLUMN
+    PIERSTEM
+    PIERSTEM_SEGMENT
+    PILASTER
+    STANDCOLUMN
+    USERDEFINED
+    NOTDEFINED
+End Enum

@@ -1,0 +1,7 @@
+from enum import Enum
+
+class IfcDuctSegmentTypeEnum(Enum):
+    FLEXIBLESEGMENT = "FLEXIBLESEGMENT"
+    RIGIDSEGMENT = "RIGIDSEGMENT"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

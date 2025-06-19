@@ -1,0 +1,17 @@
+public enum IfcAudioVisualApplianceTypeEnum {
+    AMPLIFIER,
+    CAMERA,
+    COMMUNICATIONTERMINAL,
+    DISPLAY,
+    MICROPHONE,
+    PLAYER,
+    PROJECTOR,
+    RECEIVER,
+    RECORDINGEQUIPMENT,
+    SPEAKER,
+    SWITCHER,
+    TELEPHONE,
+    TUNER,
+    USERDEFINED,
+    NOTDEFINED
+}

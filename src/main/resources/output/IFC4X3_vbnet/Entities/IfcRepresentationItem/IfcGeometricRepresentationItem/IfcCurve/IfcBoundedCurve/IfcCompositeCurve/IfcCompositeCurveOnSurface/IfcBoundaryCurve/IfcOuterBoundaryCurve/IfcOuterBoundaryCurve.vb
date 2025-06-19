@@ -1,0 +1,2 @@
+Public Class IfcOuterBoundaryCurve Inherits IfcBoundaryCurve
+End Class

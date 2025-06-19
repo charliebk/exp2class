@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcStateEnum(Enum):
+    LOCKED = "LOCKED"
+    READONLY = "READONLY"
+    READONLYLOCKED = "READONLYLOCKED"
+    READWRITE = "READWRITE"
+    READWRITELOCKED = "READWRITELOCKED"

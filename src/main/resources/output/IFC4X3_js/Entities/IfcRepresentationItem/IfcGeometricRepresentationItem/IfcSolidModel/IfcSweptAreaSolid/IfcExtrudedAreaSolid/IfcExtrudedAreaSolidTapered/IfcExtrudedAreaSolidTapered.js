@@ -1,0 +1,9 @@
+class IfcExtrudedAreaSolidTapered extends IfcExtrudedAreaSolid {
+    constructor() {
+        /** @type {IFCPROFILEDEF} */
+        this.EndSweptArea = null;
+    }
+
+    // === WHERE CLAUSES ===
+    // CorrectProfileAssignment : IfcTaperedSweptAreaProfiles(SELF\IfcSweptAreaSolid.SweptArea, SELF.EndSweptArea)
+}

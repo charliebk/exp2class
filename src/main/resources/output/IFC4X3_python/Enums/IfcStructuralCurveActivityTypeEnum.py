@@ -1,0 +1,12 @@
+from enum import Enum
+
+class IfcStructuralCurveActivityTypeEnum(Enum):
+    CONST = "CONST"
+    DISCRETE = "DISCRETE"
+    EQUIDISTANT = "EQUIDISTANT"
+    LINEAR = "LINEAR"
+    PARABOLA = "PARABOLA"
+    POLYGONAL = "POLYGONAL"
+    SINUS = "SINUS"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

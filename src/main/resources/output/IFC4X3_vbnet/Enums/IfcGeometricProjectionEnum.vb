@@ -1,0 +1,11 @@
+Public Enum IfcGeometricProjectionEnum
+    ELEVATION_VIEW
+    GRAPH_VIEW
+    MODEL_VIEW
+    PLAN_VIEW
+    REFLECTED_PLAN_VIEW
+    SECTION_VIEW
+    SKETCH_VIEW
+    USERDEFINED
+    NOTDEFINED
+End Enum

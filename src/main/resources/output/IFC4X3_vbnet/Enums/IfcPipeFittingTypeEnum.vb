@@ -1,0 +1,11 @@
+Public Enum IfcPipeFittingTypeEnum
+    BEND
+    CONNECTOR
+    ENTRY
+    EXIT
+    JUNCTION
+    OBSTRUCTION
+    TRANSITION
+    USERDEFINED
+    NOTDEFINED
+End Enum

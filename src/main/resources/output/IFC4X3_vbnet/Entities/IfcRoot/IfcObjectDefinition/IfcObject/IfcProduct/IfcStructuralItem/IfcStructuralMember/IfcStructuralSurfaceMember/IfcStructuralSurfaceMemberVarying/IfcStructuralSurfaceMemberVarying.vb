@@ -1,0 +1,2 @@
+Public Class IfcStructuralSurfaceMemberVarying Inherits IfcStructuralSurfaceMember
+End Class

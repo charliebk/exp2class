@@ -1,0 +1,9 @@
+public enum IfcUnitaryEquipmentTypeEnum {
+    AIRCONDITIONINGUNIT,
+    AIRHANDLER,
+    DEHUMIDIFIER,
+    ROOFTOPUNIT,
+    SPLITSYSTEM,
+    USERDEFINED,
+    NOTDEFINED
+}

@@ -1,0 +1,11 @@
+from enum import Enum
+
+class IfcPileTypeEnum(Enum):
+    BORED = "BORED"
+    COHESION = "COHESION"
+    DRIVEN = "DRIVEN"
+    FRICTION = "FRICTION"
+    JETGROUTING = "JETGROUTING"
+    SUPPORT = "SUPPORT"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

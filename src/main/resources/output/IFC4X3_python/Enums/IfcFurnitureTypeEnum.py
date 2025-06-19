@@ -1,0 +1,13 @@
+from enum import Enum
+
+class IfcFurnitureTypeEnum(Enum):
+    BED = "BED"
+    CHAIR = "CHAIR"
+    DESK = "DESK"
+    FILECABINET = "FILECABINET"
+    SHELF = "SHELF"
+    SOFA = "SOFA"
+    TABLE = "TABLE"
+    TECHNICALCABINET = "TECHNICALCABINET"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

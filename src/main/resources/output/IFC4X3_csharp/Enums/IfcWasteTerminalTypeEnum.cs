@@ -1,0 +1,11 @@
+public enum IfcWasteTerminalTypeEnum {
+    FLOORTRAP,
+    FLOORWASTE,
+    GULLYSUMP,
+    GULLYTRAP,
+    ROOFDRAIN,
+    WASTEDISPOSALUNIT,
+    WASTETRAP,
+    USERDEFINED,
+    NOTDEFINED
+}

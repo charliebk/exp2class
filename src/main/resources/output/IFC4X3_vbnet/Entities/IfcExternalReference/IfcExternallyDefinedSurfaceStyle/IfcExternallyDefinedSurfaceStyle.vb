@@ -1,0 +1,2 @@
+Public Class IfcExternallyDefinedSurfaceStyle Inherits IfcExternalReference
+End Class

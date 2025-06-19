@@ -1,0 +1,9 @@
+// ENUM TYPE IfcFlowMeterTypeEnum
+const IfcFlowMeterTypeEnum = Object.freeze({
+    ENERGYMETER: "ENERGYMETER",
+    GASMETER: "GASMETER",
+    OILMETER: "OILMETER",
+    WATERMETER: "WATERMETER",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

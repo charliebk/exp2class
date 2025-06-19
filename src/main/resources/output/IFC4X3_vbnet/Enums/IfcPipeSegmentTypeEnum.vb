@@ -1,0 +1,9 @@
+Public Enum IfcPipeSegmentTypeEnum
+    CULVERT
+    FLEXIBLESEGMENT
+    GUTTER
+    RIGIDSEGMENT
+    SPOOL
+    USERDEFINED
+    NOTDEFINED
+End Enum

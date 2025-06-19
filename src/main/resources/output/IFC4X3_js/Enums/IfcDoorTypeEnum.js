@@ -1,0 +1,10 @@
+// ENUM TYPE IfcDoorTypeEnum
+const IfcDoorTypeEnum = Object.freeze({
+    BOOM_BARRIER: "BOOM_BARRIER",
+    DOOR: "DOOR",
+    GATE: "GATE",
+    TRAPDOOR: "TRAPDOOR",
+    TURNSTILE: "TURNSTILE",
+    USERDEFINED: "USERDEFINED",
+    NOTDEFINED: "NOTDEFINED"
+});

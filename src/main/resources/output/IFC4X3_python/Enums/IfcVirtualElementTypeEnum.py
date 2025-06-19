@@ -1,0 +1,8 @@
+from enum import Enum
+
+class IfcVirtualElementTypeEnum(Enum):
+    BOUNDARY = "BOUNDARY"
+    CLEARANCE = "CLEARANCE"
+    PROVISIONFORVOID = "PROVISIONFORVOID"
+    USERDEFINED = "USERDEFINED"
+    NOTDEFINED = "NOTDEFINED"

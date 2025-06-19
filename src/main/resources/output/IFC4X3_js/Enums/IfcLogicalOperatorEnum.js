@@ -1,0 +1,8 @@
+// ENUM TYPE IfcLogicalOperatorEnum
+const IfcLogicalOperatorEnum = Object.freeze({
+    LOGICALAND: "LOGICALAND",
+    LOGICALNOTAND: "LOGICALNOTAND",
+    LOGICALNOTOR: "LOGICALNOTOR",
+    LOGICALOR: "LOGICALOR",
+    LOGICALXOR: "LOGICALXOR"
+});
