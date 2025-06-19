@@ -30,6 +30,22 @@ public class ExpParser {
             return blocks;
         }
     }
+    public static List<ParsedBlockRaw> parseBloquesFromFile(Path path) throws IOException {
+        if (!Files.exists(path)) {
+            throw new FileNotFoundException("Archivo no encontrado: " + path.toAbsolutePath());
+        }
+
+        List<String> lines = Files.readAllLines(path);
+        List<ParsedBlockRaw> blocks = ExpParser.extractBlocks(lines);
+
+        for (ParsedBlockRaw b : blocks) {
+            System.out.println("Tipo: " + b.getType() + " Nombre: " + b.getName());
+            System.out.println("Contenido: " + String.join("\n", b.getContent()));
+            System.out.println("----------");
+        }
+
+        return blocks;
+    }
     public static List<ParsedBlockRaw> extractBlocks(List<String> lines) {
         List<ParsedBlockRaw> blocks = new ArrayList<>();
         List<String> currentContent = null;
