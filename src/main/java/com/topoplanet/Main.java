@@ -14,7 +14,7 @@ import static com.topoplanet.ParseBlock.ExportFiles.Language.*;
 public class Main {
         public static void main(String[] args) {
 
-            List<ParsedBlockRaw> parsedBlocks = null;
+//            List<ParsedBlockRaw> parsedBlocks = null;
 //            try {
 //                parsedBlocks = ExpParser.parseBloquesFromResource("IFC.exp");
 //                ExpParser.exportAllFiles(
