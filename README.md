@@ -10,8 +10,9 @@ Este proyecto permite **parsear archivos EXPRESS (.exp)** como los usados en est
 
 ---
 
+
 ## 🚀 Uso
-java -jar exp2class.jar <archivo.exp> <lenguaje> <salida> <nombre_carpeta_root>ar <exp-file> <language> <output-path> <root-folder-name>
+java -jar exp2class.jar <exp-file> <language> <output-path> <root-folder-name>
 
 -	<exp-file>	Ruta absoluta o relativa al archivo .exp (por ejemplo: IFC4X3.exp)
 -   <language>	Lenguaje de salida. Opciones válidas: java, csharp, python, vbnet, js
